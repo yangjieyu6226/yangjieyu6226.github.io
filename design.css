@@ -1,0 +1,26 @@
+* {
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      margin:1em 10%;
+}
+ #navigation{
+     background-repeat: repeat-x;
+     background-position: bottom center;
+ }
+ #navigation ul{
+     width:100%;
+     overflow: hidden;
+     border-left-width: .20em;
+     border-left-style: solid;
+ }
+ #navigation li{
+     display: inline;
+ }
+ #navigation li a{
+     display: block;
+     float: left;
+     padding: .5em 2em;
+     border-right: .1em dotted;
+ }
