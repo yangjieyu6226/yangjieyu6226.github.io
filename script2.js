@@ -1,5 +1,5 @@
 function back(){
-  window.open("exercise7.html");
+  window.open("index.html");
   alert(window.location);
 }
 function analysis(){
