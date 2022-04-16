@@ -1,8 +1,8 @@
-var ans=["a","b"];
+var ans=["a","b","b"];
 var score=0;
 var curi=0;
-var obj=["img0","img1"];
-var img=["im0","im1",]
+var obj=["img0","img1","img2"];
+var img=["im0","im1","im2"]
 var x=1;
 
 function answer(){
@@ -37,7 +37,7 @@ function next(){
 next()
 
 function back(){
-  window.open("exercise7.html");
+  window.open("index.html");
   alert(window.location);
 }
 

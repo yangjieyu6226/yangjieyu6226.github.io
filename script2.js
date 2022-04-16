@@ -8,13 +8,13 @@ function analysis(){
 }
 function finish()
   {
-  	var cores=0;
-  	var qestions=document.getElementsByClassName("divCss")
+  	var scores=0;
+  	var qestions=document.getElementsByClassName("question")
   	for(var i=0;i<qestions.length;i++)
   	{
   		var count=0;
   		var flag=1;
-  		var answer=document.getElementsByName("place2"+(i+1));
+  		var answer=document.getElementsByName("place"+(i+1));
   		for(var j=0;j<answer.length;j++)
   		{
   			if(answer[j].checked)
@@ -29,7 +29,7 @@ function finish()
   			}
   		}
   		if(flag==1)
-  			cores+=count;
+  			scores+=count;
   	}
-  	alert("你的分数是 "+cores);
+  	alert("你的分数是 "+scores);
   }
