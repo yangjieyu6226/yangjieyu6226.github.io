@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="utf-8">
+  <title>图形推理</title>
+  <script src="script1.js"></script>
+  <style>
+  body{
+  	margin:50px;
+  	border:solid 2px black;
+    border-radius:50px;
+    text-align: center;
+  	background-image:url('2.jpg');
+  }
+  .button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+
+}
+.button1:hover {
+    background-color:orange;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+    <div  id="img0" style="display:block;"><img src="2.png" /></div>
+    <div  id="img1" style="display:none;"><img src="3.png" /></div>
+
+  <div>
+      <button onclick="back()"class="button button1">返回</button>
+      <button onclick="next()"class="button button1">下一题</button>
+      <button onclick="answer()"class="button button1">回答</button>
+      <button onclick="finish()"class="button button1">结算</button>
+  <div>
+    <div  id="im0" style="display:none;"><img src="2.png" /></div>
+   <div  id="im1" style="display:none;"><img src="3.png" /></div>
+ </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文字推理</title>
+<script src="script2.js"></script>
+<style>
+body{
+	margin:50px;
+	border:solid 2px black;
+	border-radius:50px;
+	background-image:url('2.jpg');
+  font-family: "YouYuan";
+	font-weight: bold;
+}
+.container{
+	position:relative;
+	margin:30px;
+	border:solid 2px orange;
+	padding:10px
+	color: orange;
+	}
+.divCss{
+	margin-bottom: 50px;
+margin-left: 500px;
+margin-top: 30px;
+}
+.olCss{
+	padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+.inputClass {
+	float:left;
+	margin-left: -50px;
+	text-align:center
+}
+.liRight {
+}
+.button {
+	background-color: orange;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid grey;
+
+}
+.button1:hover {
+	background-color:orange;
+	color: white;
+}
+</style>
+</head>
+<body>
+<form>
+	<div class="divCss">
+	1.在夏夜星空的某一区域，<br>
+	有7颗明亮的星星：A星、B星、C 星、D星、E星、F星、G星，<br>
+	它们由北至南排列成一条直线，同时发现：<br>
+	（1）C星与E星相邻；<br>
+	（2）B星和F星相邻；<br>
+	（3）F星与C星相邻；<br>
+	（4）C星在B星北侧，且位于7 颗星的正中。<br>
+	据此，7颗星由北至南的顺序是（）?
+		<ol type="A" start="" class="olCss" name="single" >
+			<input class="inputClass" type="radio" name="place1" value="A"  /><li class="liRight">G星、D星、E星、C星、F星、B星、A星</li>
+			<input class="inputClass" type="radio" name="place1" value="B" /><li class="liRight">G星、A星、E星、C星、F星、B星、D星</li>
+			<input class="inputClass" type="radio" name="place1" value="C" /><li class="liRight">A星、D星、E星、C星、F星、B星、G星</li>
+		</ol>
+	</div>
+	<div class="divCss">
+	2.甲、乙、丙、丁四同学在一起议论本班参加A活动的情况。<br>
+　甲说：我班所有同学都参加了;<br>
+　乙说：如果张帆没参加，那么李航也没参加;<br>
+　丙说：李航参加了;<br>
+　丁说：我班所有同学都没有参加。<br>
+　已知四人中只有一人说的不正确，由此可见( )。
+		<ol type="A" start="" class="olCss" name="single" >
+			<input class="inputClass" type="radio" name="place2" value="A"  /><li class="liRight">甲说的不正确，张帆没参加</li>
+			<input class="inputClass" type="radio" name="place2" value="B"  /><li class="liRight">丁说的不正确，张帆参加了</li>
+			<input class="inputClass" type="radio" name="place2" value="C" /><li class="liRight">.乙说的不正确，张帆参加了</li>
+		</ol>
+	</div>
+	<div class="divCss">
+		<button onclick="back()"class="button button1">返回</button>
+		<button onclick="analysis()"class="button button1">提示</button>
+		<button onclick="finish()"class="button button1">提交</button>
+</form>
+
+<script>
+
+</script>
+</body>
+</html>
