@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="cn">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <style>
+    body{
+        background-image: url(6.gif)  ;
+        margin: 0;
+    	padding: 0;
+    	font-family: sans-serif;
+    	background-size: cover;
+         background-position: center 0;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+    }
+    #div1 img{
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  #div1 img:hover{
+    transform: scale(1.2);
+  }
+  #test img{
+    display:none;
+  }
+  </style>
+<body>
+    <div id="div1">
+  <img src="8.png" alt="" style="width:1100px;height:800px;position:absolute;left:230px;margin-top:110px;"</a></div>
+  <script>
+        //获取img元素
+        var imgObj = document.querySelector("img");
+        //给img元素绑定点击事件
+        imgObj.addEventListener("click", function() {
+            //当点击事件触发的时候改变图片的路径，将第二张图片引入。
+            this.src = "5.png";
+        })
+    </script>
+<a href="index1.html"><img src="7.png" style="width:300px;height:300px;position:absolute;margin-left:950px;margin-top:450px;"</a>
+</body>
+    </html>

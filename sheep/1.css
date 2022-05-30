@@ -1,0 +1,141 @@
+body{
+    background-image: url(10.gif)  ;
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+     background-position: center 0;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -ms-background-size: cover;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+*{margin: 0 auto;
+	padding: 0;}
+#overDiv {
+	background-color:#000;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0; /*FF IE7*/
+	filter: alpha(opacity = 65); /*IE*/
+	opacity: 0.65; /*FF*/
+	z-index: 110;
+	position: fixed !important; /*FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode &&
+	 document.compatMode == 'CSS1Compat')?
+	documentElement.scrollTop+  (document.documentElement.clientHeight-this.offsetHeight
+		)/2: /*IE6*/
+	document.body.scrollTop+  (document.body.clientHeight-  this.clientHeight
+		)/2 ); /*IE5 IE5.5*/
+}
+
+#hsDiv {
+	background:#fff;
+
+	z-index: 120;
+	width: 400px;
+	height: 300px;
+	left: 43%; /*FF IE7*/
+	top: 37%; /*FF IE7*/
+	margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+	margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed !important; /*FF IE7*/
+	position: absolute; /*IE6*/
+	_top: expression(eval(document.compatMode &&
+	 document.compatMode == 'CSS1Compat')?
+	documentElement.scrollTop+  (document.documentElement.clientHeight-this.offsetHeight
+		)/2: /*IE6*/
+	document.body.scrollTop+  (document.body.clientHeight-  this.clientHeight
+		)/2 ); /*IE5 IE5.5*/
+}
+
+.lobu {
+	width: 65px;
+	height: 25px;
+	background: #FFFFFF;
+	font-size: 13px;
+	border: #0099CC solid 1px;
+}
+/*-------登陆表单的设置------------*/
+#closediv{
+	margin-left: 390px;
+	margin-top: -10px;
+}
+#dlTitle{
+	width:400px;
+	height: 30px;
+
+}
+#logintb{
+	width: 300px;
+	height:auto;
+	border: 0px;
+	margin-top: 5px;
+}
+#logintb .logintd1,#logintb .logintd3
+{
+	height:35px;
+	vertical-align: bottom;
+}
+#logintb .logintd1
+{
+	font-size:12px;
+	color: #888888;
+}
+#logintb .logintd3{
+	font-size:11px;
+}
+#logintb .logintd2
+{
+	height:auto;
+
+}
+#logintb td a{
+	float: right;
+}
+.logintd2 input{
+	width:300px;
+	height: 32px;
+}
+.logintd4{
+	height: 45px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+button{
+background:url(9.png) left:100px no-repeat;
+left:100px;
+top:100px;
+font-size:50px;
+width:700px;
+height:200px;
+border:0px;
+}
+#bt{
+ background:url(8.png) no-repeat;
+ width:100px;
+ height:50px;
+ border:0px;
+ cursor:pointer;
+
+img.bigger {
+width: 100%;
+height:100%;
+transition:transform 2s;
+}
+img.bigger:hover{
+transform: scale(1.2,1.2);
+}
+cursor:pointer;
+ }
